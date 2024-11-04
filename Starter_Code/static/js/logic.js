@@ -74,14 +74,14 @@ let map = L.map("map", {
     if (depth <= 10) {
       return '#85e970';
     } else if (depth <= 30) {
-      return '#baf5ad';
+        return '#baf5ad';
     } else if (depth <= 50) {
-      return '#d8ec6c'; 
+        return '#d8ec6c'; 
     } else if (depth <= 70) {
-      return '#e0c24a'; 
+        return '#e0c24a'; 
     } else if (depth <= 90) {
         return '#d89024';
     } else {
-      return '#d84c24'; 
+        return '#d84c24'; 
     }
   }
